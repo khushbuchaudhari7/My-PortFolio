@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png.jpeg" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Java Full Stack Developer</p>
+            <h1>Hi, I'm <span>Khushbu</span><br> From Pune</h1>
+
+        </div>
+    </div>
+    </div>
+    
+    <!-- ---------About page---------- -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+             <img src="images/user.png.jpeg">   
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> Hello! I'm Khushbu Chaudhari,i am from Pune,
+                    i have completed my bachelor degree in 'Bcs Computer Science' 
+                    from 'M.j collage and kavaytri bahinabai chaudhari univercity jalgaon', 
+                    a passionate 'Java Full Stack Developer' with knowledge of 
+                    core java - Oops,Collection Framework,Exception handling,
+                    and Advance concept Jdbc,Servlet,Jsp,Spring Boot,Hibernate, MySQL,and HTML, CSS, JavaScript,
+                    and Bootstrap,REST APIs, MVC architecture. with hands-on experience in building web applications.
+                    Quick learner with good problem-solving skills and a passion for clean coding.</p>
+                  
+                 <div class="tab-titles">
+                    <p class="tap-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tap-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tap-links" onclick="opentab('education')">Education</p>
+                 </div> 
+                 <div class="tab-contents" active-tab id="skills">
+                    <ul>
+                        <li><span>Technical Skills</span><br>Core Java<br>JDBC<br>Servlet<br>JSP<br>Spring Boot<br>Spring MVC<br>Spring Data JPA<br>Hibernate<br>REST API<br>MySQL<br>HTML,CSS,JavaScript,<br>Bootstrap<br>Git & GitHub</li>
+                         
+            </div>
+            <div class="tab-contents" id="experience"> 
+                <ul>
+                    <li><span>Fresher</span><br>Hands on Experience </li>
+
+            </div>
+             <div class="tab-contents" id="education"> 
+                <ul>
+                    <li><span>2020</span><br>10th (percentage -80.40%) from Shahada</li>
+                    <li><span>2022</span><br>12th (percentage -73.67%) from Shahada </li>
+                    <li><span>2025</span><br>Bsc Computer Science(CGPA-6.22) form Jalgaon</li>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------------------services---------------------------------------- -->
+
+<div id="services">
+    <div class="container">
+       <h1 class="sub-title">My Services</h1>  
+       <div class="services-list">
+        <div>
+            <h2>Frontend Development</h2>
+              <p>Build modern, responsive, and interactive user interfaces that deliver a seamless experience across all devices. Using the latest technologies, I create fast, accessible, and visually appealing web applications.</p>
+                  <a href="#">Learn more</a>
+                </div>
+
+                <div>
+            <h2>Backend Development</h2>
+            <p>Develop secure, scalable, and high-performance server-side applications that power your website or web app. From business logic to authentication and data processing, I ensure reliable functionality behind the scenes.</p>
+                  <a href="#">Learn more</a>
+                </div>
+
+                <div>
+            <h2>Database Design</h2>
+            <p>Design and manage efficient database architectures that ensure data security, consistency, and optimal performance. I create scalable database solutions that support seamless application growth and maintenance.
+                  </p>
+                  <a href="#">Learn more</a>
+                </div>
+
+                <div>
+            <h2>API Development & Integration</h2>
+            <p>Develop and integrate RESTful APIs to enable smooth communication between applications, databases, and third-party services. I ensure secure, reliable, and efficient data exchange for modern web applications.
+                  </p>
+                  <a href="#">Learn more</a>
+                </div>
+
+       </div>
+    </div>
+</div>
+<!---------------------------portfolio----------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+
+            <div class="work">
+
+            <img src="images/work.png.jpeg">
+            <div class="layer">
+              <h3>Academic Portal</h3>
+              <p>Java | Spring Boot | Hibernate(ORM) | MySQL | Postman
+           Academic Portal is a Spring Boot–based academic application that manages student information, subject management, attendance, and administrative tasks. The system follows a structured data flow, implements role-based access control, and uses RESTful APIs to ensure secure and efficient academic operations.
+            </p>
+            </div>
+        </div> 
+        </div>
+    </div>
+</div>
+<!-- ----------------------------contact------------------------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p> <i class="fas fa-envelope"></i>chaudharikhushbu683@gmail.com</p>
+            <p> <i class="fas fa-phone"></i>+91 9021328895</p>
+
+            <div class="social-icons">
+            <a href="https://github.com/khushbuchaudhari7" target="_blank">
+             <i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/khushbu-chaudhari-b3244131b/" target="_blank">
+            <i class="fab fa-linkedin"></i></a>
+
+          </div>    
+       
+        <a href="images/My_VC.pdf" download class="btn btn2">Download CV</a>
+         </div>
+
+        <div class="contact-right"></div>
+        <form>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Sumbit</button>
+        </form>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+        <p>@2026 Khushbu Chaudhari.All Rights Reserved.
+            Designed & Developed by Khushbu Chaudhari.
+        </p>
+        </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+</script>
+    
+</body>
+</html>
